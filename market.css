@@ -1,0 +1,76 @@
+h1 {
+    font-size: 60px;
+    font-family: Tangerine;
+    color: #EFCC3A;
+    text-align: left;
+    margin-left: 10%;
+}
+body {
+    background-image: url("http://bookaboat.co/wp-content/uploads/2018/06/the-world-map-is-100-wrong-in-flat-scrapsofme-me-throughout-of-in-flat-world-map.jpg");
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: none;
+}
+
+.item-box {
+    margin-left: 45px;
+    margin: -20px;
+}
+button {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    transition-property: all;
+    transition-duration: 500ms;
+
+}
+button:hover {
+    background: #EFCC3A;
+}
+.item {  
+  text-align: center;
+  padding-bottom: 45px;
+}
+.item2 {
+  text-align: center;
+  padding-bottom: 45px;
+}
+h1 {
+    text-align: center;
+}
+button {
+    border-radius: 18px; 
+-moz-border-radius: 18px; 
+-webkit-border-radius: 18px; 
+border: 2px solid #A78F2C;
+width: 65px;
+margin-left: 10px;
+}
+.item3 {
+    padding-bottom: 0px;
+    text-align: center;
+}
+.item4 {
+    padding-bottom: 0px;
+    text-align: center;
+}
+div {
+    color: orange;
+}
+audio {
+    float: right;
+    margin: 0 25px;
+    width: 92px;
+}
+img {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display, audio::-webkit-media-controls-timeline {
+    display: none;
+}
