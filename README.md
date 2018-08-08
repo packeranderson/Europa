@@ -1,1 +1,1 @@
-europaconquer.io
+europaconquer.github.io
